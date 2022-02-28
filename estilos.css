@@ -1,0 +1,27 @@
+body{
+    font-size:32px;
+    /*Para remover o espaçamento padrão que já vem configurado no navegador é necessário forçar a margin do body para 0px como no exemplo abaixo*/
+    margin: 0px;
+}
+
+.frase1, .frase2{
+    text-align:justify;
+    width:500px;
+    padding: 20px;
+
+    border:3px solid red;
+    background-color: yellow;
+}
+
+/*O parágrafo também tem uma margem padrão e se quiser remover devemos forçar para 0PX como descrito abaixo*/
+p{
+    margin:0px;
+}
+
+.frase1{
+    margin: 10px 0 100px 50px;
+}
+
+.frase2{
+    margin: auto;
+}
